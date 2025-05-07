@@ -1,5 +1,5 @@
-1.  Provide the list of markets in which customer  "Atliq  Exclusive"  operates its 
-business in the  APAC  region. 
+**1.  Provide the list of markets in which customer  "Atliq  Exclusive"  operates its 
+business in the  APAC  region**. 
 
 SELECT distinct(market) 
 FROM dim_customer
@@ -7,8 +7,8 @@ where region = "APAC" and
 customer = "Atliq Exclusive"
 
 
-#2. What is the percentage of unique product increase in 2021 vs. 2020? The 
-final output contains these fields unique_products_2020, unique_products_2021, pct_change#
+**2. What is the percentage of unique product increase in 2021 vs. 2020? The 
+final output contains these fields unique_products_2020, unique_products_2021, pct_change**.
 
 
 with unq_20 as(
